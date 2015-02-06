@@ -1,0 +1,19 @@
+.intro {
+
+  color: blue;
+  font-style: italics;
+}
+.sidebar {
+  width: 25%;
+  float: right;
+  padding-top: 0px;
+}
+.column {
+  width: 300px;
+  float: left;
+  padding: 10px;
+}
+
+.floatLeft {
+  float: left;
+}
