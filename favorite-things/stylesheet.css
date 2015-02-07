@@ -48,4 +48,5 @@ ol>.thirdItem {
   color: white;
   float: left;
   top: 0px;
+  cursor: default;
 }
