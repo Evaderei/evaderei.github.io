@@ -1,0 +1,30 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css' rel="stylesheet" type='text/css'>
+* {
+  font-style: 'Open Sans', sans-serif;
+}
+h2 {
+    color: black;
+    font-size: 3em;
+    -webkit-animation: colorChanger 20s ease-in-out 3s infinite;
+}
+  .main {
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+}
+iframe {
+  display: none;
+}
+@-webkit-keyframes colorChanger {
+  0% { color: black;}
+  25% { color: red;}
+  50% { color: green; }
+  75% { color: yellow; }
+  100% { color: blue; }
+}
