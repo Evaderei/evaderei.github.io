@@ -129,7 +129,7 @@ $(document).ready(function() {
   
   
   // TEST AREA
-  $(window).scrollTop($(".section").innerHeight() * 3);
+  $(window).scrollTop($(".section").innerHeight() * 0);
   checkAndMark();
   // END OF TEST AREA
   
