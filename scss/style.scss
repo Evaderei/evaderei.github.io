@@ -15,12 +15,6 @@ $link-color: black;
 }
 */
 
-.vert-center {
-  display: flex;
-    /* flex-direction: column;*/
-    align-items: center; 
-    /* justify-content: center;*/
-}
 
 h2 {
   margin: 0px;
@@ -54,8 +48,9 @@ section {
 }
 
 .sample-pic {
+  background-color: black;
   height: 200px;
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -75,7 +70,6 @@ section {
   width: 75%;
   padding: 0 40px;
   padding-bottom: 20px;
-  margin-right: 40px;
 }
 
 .half {
@@ -94,10 +88,6 @@ section {
 
 .biography {
   background-color: white;
-}
-
-.bio-intro {
-  text-align: center;
 }
 
 .portfolio {
@@ -252,4 +242,5 @@ section a {
   background-color: lightgrey;
   height: 200px;
   width: 100%;
+  
 }
